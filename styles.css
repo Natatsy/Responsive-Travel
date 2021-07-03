@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*
+     Author: Nataliya Tsytovych
+     Date: 07/02/2021
+     File: styles.css
+     Project: Responsive Travel
+*/
+body {
+  background-color: #82efee;
+}
+header {
+  text-align: center;
+  background-color: #009ab0;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+}
+footer {
+  text-align: center;
+  color: #009ab0;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-size: 1em;
+  padding: 10px;
+}
+.fab {
+  color: #cfbca6;
+  font-size: 3em;
+  padding-right: 10px;
+}
+.socialmedia {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+div.img3 {
+  display: none;
+}
+div.img4 {
+  display: none;
+}
+@media screen and  (min-width:500px) {
+  header {
+    text-align: left;
+    text-indent: 1em;
+  }
+
+  div.img1>img {
+    padding-top: 100px;
+    padding-left: 65px;
+  }
+ article.welcome{
+   text-align: center;
+ }
+ div.img2>img {
+   padding-top: 10px;
+   padding-left: 65px;
+ }
+ article.about {
+   text-align: center;
+ }
+ div.img3{
+   display: none;
+ }
+ article.romance {
+   text-align:center;
+ }
+}
+@media screen and (min-width: 700px) {
+div.img1>img{
+  float:left;
+  }
+article.welcome {
+  padding-top: 100px;
+}
+div.img2>img {
+  padding-top: 50px;
+  clear: both;
+  float: left;
+}
+article.about {
+  padding-top: 200px;
+}
+article.romance {
+  clear: both;
+}
+article.romance>h2 {
+  padding-top: 20px;
+}
+div.img4{
+  display: block;
+  clear: both;
+  width: 75%;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header {
+  text-align: center;
+}
+}
