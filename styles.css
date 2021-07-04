@@ -41,6 +41,7 @@ div.img3 {
 }
 div.img4 {
   display: none;
+  left: 0px;
 }
 @media screen and  (min-width:500px) {
   header {
@@ -71,18 +72,20 @@ div.img4 {
 }
 @media screen and (min-width: 700px) {
 div.img1>img{
+  width: 75%;
   float:left;
   }
 article.welcome {
   padding-top: 100px;
 }
 div.img2>img {
-  padding-top: 50px;
   clear: both;
+  width: 75%;
+  padding-top: 50px;
   float: left;
 }
 article.about {
-  padding-top: 200px;
+  padding-top: 130px;
 }
 article.romance {
   clear: both;
@@ -100,5 +103,36 @@ div.img4{
 }
 header {
   text-align: center;
+}
+@media screen and (min-width: 1000px) {
+div.img1 {
+  width: 55%;
+  float: left;
+  padding-left: 0px;
+}
+article.welcome {
+  padding-right: 150px;
+  font-style: italic;
+  font-size: 1.5em;
+}
+div.img2 {
+  width:55%;
+}
+article.about {
+  padding-left: 50px;
+  font-style: italic;
+  font-size: 1.5em;
+}
+div.img3 {
+  padding-top: 100px;
+  display: block;
+}
+article.romance {
+  font-style: italic;
+  font-size: 1.5em;
+}
+div.img4{
+  width: 85%;
+}
 }
 }
